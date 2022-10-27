@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "Kanit-reg";
+    src: url(../fonts/Kanit-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Kanit-bold";
+    src: url(../fonts/Kanit-Bold.ttf);
+}
+
+.HideScroll::-webkit-scrollbar {
+    display: none;
+}
+
+.HideScroll {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+}
+.kanit-reg{
+    font-family: "Kanit-reg";
+}
+.kanit-bold{
+    font-family:"Kanit-bold";
+}
+.nav-bg {
+    background-color: #483434;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFF3E4;
+    font-size: 32px;
+    font-family: "Kanit-reg";
+}
+nav a:hover{
+    color: black;
+}
+
+nav * {
+    margin: 0px 25px 0px 25px;
+}
+
+#topLogo {
+    color: #EED6C4;
+    font-size: 64px;
+    font-family: "Kanit-bold";
+    margin: 0px 50px 0px 50px;
+}
+
+.sec1 {
+    background-color: #6B4F4F;
+    display: flex;
+    justify-content: center;
+}
+#carouselExampleIndicators{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-height: 800px;
+    max-width: 1200px;
+}
+.carousel-inner{
+    border-radius: 2em;
+}
+.carousel-item{
+    object-fit: cover;
+}
+.sec2{
+    background-color: #6B4F4F;
+    padding: 100px;
+}
+#anch-2{
+    text-align: center;
+    font-family: "Kanit-bold";
+    color: #EED6C4;
+    font-size: 48px;
+}
+.accordion-body{
+    background-color: #FFF3E4;
+}
+.cards-block{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card img {
+    height: 300px;
+    object-fit: fill;
+    transition: all 0.3s ease-in-out;
+}
+.card img:hover{
+    scale: 2;
+    z-index: 10;
+}
+.card-text {
+    height: 150px;
+}
+.card{
+    margin: 10px 5px 10px 5px;
+}
+.sec3{
+    background-color: #6B4F4F;
+}
